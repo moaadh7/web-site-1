@@ -138,3 +138,16 @@ header{
     padding: 0.5rem 2.1rem;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
 }
+
+
+
+.instagramt {
+    display: flex;
+    transform: translateY(-3rem);
+    text-decoration: none;
+    background-color: crimson;
+    color: #f5f5f5;
+    border-radius: 18px;
+    padding: 0.5rem 0.0rem;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+}
