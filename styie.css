@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+body {
+    background-color: #222831;
+
+}
+   body hr{
+    opacity: 0.3;
+    color: #f5f5f5;
+
+   }
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: "Poppins", serif;
+}
+
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1rem auto;
+    max-width: 1230px;
+}
+.navigation ul{
+    display: flex;
+    list-style-type:none ;
+    gap: 2rem;
+}
+.navigation a{
+    
+    text-decoration: none;
+    color: #f5f5f5;
+}
+.navigation a:hover{
+    color: #70BADA;
+
+}
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5rem auto;
+    max-width: 1200px;
+}
+.name1 {
+    color: antiquewhite;
+    
+}
+.title {
+    color: cadetblue;
+}
+.arrow {
+    position: absolute;
+    transform: translateX(7.5rem) translateY(-2rem);
+}
+.herosub {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    transform: translateX(9.5rem) translateY(1.6rem);
+}
+.herobtns {
+    display: flex;
+    gap: 1rem;
+    margin-top: 1.5rem;
+}
+.hireme {
+    text-decoration: none;
+    background-color: aquamarine;
+    color: #f5f5f5;
+    border-radius: 24px;
+    padding: 0.5rem 1.5rem;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+}
+.hireme h1:hover{
+    color: aquamarine;
+
+}
+.exp {
+    text-decoration: none;
+    background-color: aquamarine;
+    color: #f5f5f5;
+    border-radius: 24px;
+    padding: 0.5rem 1.5rem;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+
+}
+.light{
+    display: flex;
+    transform: translateX(55rem) translateY(-25rem);
+    
+
+}
+.Aboutname {
+    display: flex;
+    transform: translateX(51.6rem) translateY(-18rem);
+    color: #70BADA;
+    
+    
+
+}
+.Abouttitle {
+    display: flex;
+    transform: translateX(45.3rem) translateY(-21rem);
+    color: #ffffff;
+
+    
+
+}
+.AboutMepa{
+    display: flex;
+    transform: translateX(45rem) translateY(-27rem);
+    font-size: 20px;
+    text-align: justify;
+    color: rgba(238, 238, 238, 0.75);
+
+}
+.amsvg {
+    display: flex;
+    transform:translateX(2rem) translateY(-2.7rem);
+}
+.githubl {
+    display: flex;
+    transform: translateX(62rem);
+}
+.gitsvg {
+    display: flex;
+    transform: translateX(2rem);
+}
+.githubt {
+    text-decoration: none;
+    background-color: crimson;
+    color: #f5f5f5;
+    border-radius: 24px;
+    padding: 0.5rem 2.1rem;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+}
